@@ -13,6 +13,7 @@ body {
 .container {
   width: 800px;
   border-top: 4px solid #4169e1;
+  padding: 0 2em;
 }
 
 .head {
@@ -34,19 +35,19 @@ body {
   width: 150px;
 }
 .head .left .list span {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 .head .left .list span:first-child {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #4169e1;
 }
 .head .right .imageHolder {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 12px;
   overflow: hidden;
   background-color: rgba(65, 105, 225, 0.2509803922);
@@ -56,8 +57,8 @@ body {
   font-weight: 600;
 }
 .head .right .imageHolder img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -75,13 +76,12 @@ body {
   align-items: flex-start;
 }
 .billTo .billList p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin: 0;
   padding: 0;
 }
 .billTo .billList p:first-child {
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.7rem !important;
 }
 .billTo .right {
   display: flex;
@@ -92,6 +92,7 @@ body {
 .billTo .right p {
   margin: 0;
   padding: 0;
+  font-size: 0.7rem;
 }
 
 .invoiceTable {
@@ -113,7 +114,7 @@ body {
   border: none;
 }
 .invoiceTable .row * {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 .invoiceTable .row .col1 {
   width: 60%;
@@ -122,9 +123,6 @@ body {
 }
 .invoiceTable .row .col1 p {
   margin: 0;
-}
-.invoiceTable .row .col1 p:first-child {
-  font-weight: 600;
 }
 .invoiceTable .row .col2,
 .invoiceTable .row .col3,
@@ -154,18 +152,17 @@ body {
   padding: 0.3rem 0;
 }
 .summary .summarylist .list .col {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin: 0;
   padding: 0;
 }
 .summary .summarylist .list .boldCol {
   text-transform: uppercase;
-  font-weight: 600;
 }
 
 .footer {
-  margin-top: 1rem;
+  margin-top: 0.9rem;
 }
 .footer p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }/*# sourceMappingURL=style.css.map */

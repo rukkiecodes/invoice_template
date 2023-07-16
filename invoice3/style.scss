@@ -13,6 +13,7 @@ body {
 .container {
     width: 800px;
     border-top: 4px solid #4169e1;
+    padding: 0 2em;
 }
 
 .head {
@@ -34,11 +35,11 @@ body {
             width: 150px;
 
             span {
-                font-size: .8rem;
+                font-size: .6rem;
 
                 &:first-child {
                     font-weight: 600;
-                    font-size: 1rem;
+                    font-size: .9rem;
                     color: #4169e1;
                 }
             }
@@ -50,8 +51,8 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             border-radius: 12px;
             overflow: hidden;
             background-color: #4169e140;
@@ -62,8 +63,8 @@ body {
             }
 
             img {
-                width: 100px;
-                height: 100px;
+                width: 80px;
+                height: 80px;
                 object-fit: cover;
             }
         }
@@ -83,13 +84,12 @@ body {
         align-items: flex-start;
 
         p {
-            font-size: .8rem;
+            font-size: .6rem;
             margin: 0;
             padding: 0;
 
             &:first-child {
-                font-size: .9rem;
-                font-weight: 600;
+                font-size: .7rem !important;
             }
         }
     }
@@ -103,6 +103,7 @@ body {
         p {
             margin: 0;
             padding: 0;
+            font-size: .7rem;
         }
     }
 }
@@ -128,7 +129,7 @@ body {
         }
 
         * {
-            font-size: .8rem;
+            font-size: .6rem;
         }
 
         .col1 {
@@ -138,10 +139,6 @@ body {
 
             p {
                 margin: 0;
-
-                &:first-child {
-                    font-weight: 600;
-                }
             }
         }
 
@@ -175,17 +172,15 @@ body {
             display: flex;
             justify-content: space-between;
             padding: .3rem 0;
-            // border-bottom: 1px solid #00000030;
 
             .col {
-                font-size: .8rem;
+                font-size: .6rem;
                 margin: 0;
                 padding: 0;
             }
 
             .boldCol {
                 text-transform: uppercase;
-                font-weight: 600;
             }
         }
 
@@ -193,9 +188,9 @@ body {
 }
 
 .footer {
-    margin-top: 1rem;
+    margin-top: .9rem;
 
     p {
-        font-size: .8rem;
+        font-size: .6rem;
     }
 }
