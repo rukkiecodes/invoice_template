@@ -194,3 +194,41 @@ body {
         font-size: .6rem;
     }
 }
+
+.stamp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: .3;
+    width: 200px;
+    height: 200px;
+    border: 6px solid #4169e1;
+    border-radius: 50%;
+    background-color: #4169e180;
+}
+
+.stamp-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.stamp-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #4169e1;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #fff;
+}
