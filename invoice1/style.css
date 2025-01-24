@@ -1,203 +1,189 @@
 * {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
-  width: 800px;
-  border-top: 4px solid #4169e1;
-  padding: 2em;
-  position: relative;
+    width: 800px;
+    border-top: 4px solid #4169e1;
+    padding: 2em;
+    position: relative;
 }
 
 .head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1em;
 }
+
 .head .left {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
 .head .left .imageHolder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  height: 100px;
-  border-radius: 12px;
-  overflow: hidden;
-  background-color: rgba(65, 105, 225, 0.2509803922);
-  margin-right: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: rgba(65, 105, 225, 0.2509803922);
+    margin-right: 1em;
 }
+
 .head .left .imageHolder span {
-  color: #4169e1;
-  font-weight: 600;
+    color: #4169e1;
+    font-weight: 600;
 }
+
 .head .left .imageHolder img {
-  width: 100px;
-  height: 100px;
-  -o-object-fit: cover;
-     object-fit: cover;
+    width: 100px;
+    height: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
+
 .head .left .list {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 150px;
 }
+
 .head .left .list span {
-  font-size: 0.6rem;
+    font-size: 0.6rem;
 }
+
 .head .left .list span:first-child {
-  font-weight: 600;
-  font-size: 0.9rem;
-  color: #4169e1;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #4169e1;
 }
+
 .head .right {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
+
 .head .right p {
-  margin: 0;
-  padding: 0;
-  font-size: 0.7rem;
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
 }
 
 .billTo {
-  margin-top: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
 .billTo .billList {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
 .billTo .billList p {
-  font-size: 0.6rem;
-  margin: 0;
-  padding: 0;
+    font-size: 0.6rem;
+    margin: 0;
+    padding: 0;
 }
+
 .billTo .billList p:first-child {
-  font-size: 0.7rem !important;
+    font-size: 0.7rem !important;
 }
 
 .invoiceTable {
-  margin-top: 1em;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
+
 .invoiceTable .row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.3em 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2509803922);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2509803922);
 }
+
 .invoiceTable .row * {
-  font-size: 0.6rem;
+    font-size: 0.6rem;
 }
+
 .invoiceTable .row .col1 {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
 }
+
 .invoiceTable .row .col1 p {
-  margin: 0;
+    margin: 0;
 }
+
 .invoiceTable .row .col2,
 .invoiceTable .row .col3,
 .invoiceTable .row .col4 {
-  width: 13.3333333333%;
-  text-align: right;
+    width: 13.3333333333%;
+    text-align: right;
 }
+
 .invoiceTable .rowHead {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4392156863);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4392156863);
 }
+
 .invoiceTable .rowHead * {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .summary {
-  margin-top: 1em;
-  display: flex;
-  justify-content: space-between;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
 }
+
 .summary .summarylist {
-  width: 35%;
+    width: 35%;
 }
+
 .summary .summarylist .list {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.3rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1882352941);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1882352941);
 }
+
 .summary .summarylist .list .col {
-  font-size: 0.6rem;
-  margin: 0;
-  padding: 0;
+    font-size: 0.6rem;
+    margin: 0;
+    padding: 0;
 }
+
 .summary .summarylist .list .boldCol {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .footer {
-  margin-top: 0.9rem;
+    margin-top: 0.9rem;
 }
+
 .footer p {
-  font-size: 0.6rem;
+    font-size: 0.6rem;
 }
-
-.stamp {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  opacity: 0.3;
-  width: 200px;
-  height: 200px;
-  border: 6px solid #4169e1;
-  border-radius: 50%;
-  background-color: rgba(65, 105, 225, 0.5019607843);
-}
-
-.stamp-circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 70%;
-  height: 70%;
-  background-color: #fff;
-  border-radius: 50%;
-}
-
-.stamp-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  font-weight: bold;
-  color: #4169e1;
-  text-transform: uppercase;
-  padding: 10px 20px;
-  background-color: #fff;
-}/*# sourceMappingURL=style.css.map */
